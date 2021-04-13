@@ -1,7 +1,7 @@
 export const thresholdParams = {
   min: -50,
   max: 0,
-  step: null,
+  step: 1,
   defaultValue: 0,
   marks: {
     "-50": "-50dB",
