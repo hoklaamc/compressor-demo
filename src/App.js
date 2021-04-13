@@ -1,14 +1,24 @@
 import "./App.css";
-import Player from "./Player";
-import guitarFile from './assets/guitar.wav';
+import Compressor from "./Compressor";
+import { Layout, Typography } from "antd";
 
 function App() {
+  const { Header, Content } = Layout;
+  const { Title } = Typography;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <Player url={guitarFile} />
-      </header>
-    </div>
+    <Layout className="layout">
+      <Header>
+        <div className="header">
+          <Title>Compressor Demo</Title>
+        </div>
+      </Header>
+      <Content>
+        <div className="content">
+          <Compressor />
+        </div>
+      </Content>
+    </Layout>
   );
 }
 
