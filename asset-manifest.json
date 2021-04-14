@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/compressor-demo/static/css/main.d014b7a7.chunk.css",
+    "main.js": "/compressor-demo/static/js/main.b9f47b53.chunk.js",
+    "main.js.map": "/compressor-demo/static/js/main.b9f47b53.chunk.js.map",
+    "runtime-main.js": "/compressor-demo/static/js/runtime-main.e6789f25.js",
+    "runtime-main.js.map": "/compressor-demo/static/js/runtime-main.e6789f25.js.map",
+    "static/css/2.558413a2.chunk.css": "/compressor-demo/static/css/2.558413a2.chunk.css",
+    "static/js/2.440523c8.chunk.js": "/compressor-demo/static/js/2.440523c8.chunk.js",
+    "static/js/2.440523c8.chunk.js.map": "/compressor-demo/static/js/2.440523c8.chunk.js.map",
+    "static/js/3.f0549c2f.chunk.js": "/compressor-demo/static/js/3.f0549c2f.chunk.js",
+    "static/js/3.f0549c2f.chunk.js.map": "/compressor-demo/static/js/3.f0549c2f.chunk.js.map",
+    "index.html": "/compressor-demo/index.html",
+    "static/css/2.558413a2.chunk.css.map": "/compressor-demo/static/css/2.558413a2.chunk.css.map",
+    "static/css/main.d014b7a7.chunk.css.map": "/compressor-demo/static/css/main.d014b7a7.chunk.css.map",
+    "static/js/2.440523c8.chunk.js.LICENSE.txt": "/compressor-demo/static/js/2.440523c8.chunk.js.LICENSE.txt",
+    "static/media/guitar.7ab39745.wav": "/compressor-demo/static/media/guitar.7ab39745.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6789f25.js",
+    "static/css/2.558413a2.chunk.css",
+    "static/js/2.440523c8.chunk.js",
+    "static/css/main.d014b7a7.chunk.css",
+    "static/js/main.b9f47b53.chunk.js"
+  ]
+}
