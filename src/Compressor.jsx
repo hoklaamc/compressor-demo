@@ -1,16 +1,16 @@
 import { useState } from "react";
-import { useAudio } from "./helpers";
 import { Slider } from "antd";
-import guitarFile from "./assets/guitar.wav";
+import { useAudio } from "./helpers";
 import * as Params from "./params";
+import guitarFile from "./assets/guitar.wav";
 
 const Compressor = () => {
   const [audioFile, setAudioFile] = useState(guitarFile);
   const [isPlaying, toggleIsPlaying] = useAudio(audioFile);
 
-  const originalAudio = new Audio(audioFile);
+  const audio = new Audio(audioFile);
   const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-  const track = audioContext.createMediaElementSource(originalAudio);
+  const track = audioContext.createMediaElementSource(audio);
 
   const compressor = audioContext.createDynamicsCompressor();
   track.connect(compressor);
